@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder logo - simple caftan icon -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,20 C40,20 30,30 30,50 L30,100 L40,100 L40,50 C40,35 45,30 60,30 C75,30 80,35 80,50 L80,100 L90,100 L90,50 C90,30 80,20 60,20 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,7 a8,8 0 1,1 0,16 a8,8 0 1,1 0,-16" />
+</vector>
+

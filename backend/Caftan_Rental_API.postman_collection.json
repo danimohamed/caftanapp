@@ -1,0 +1,78 @@
+{
+  "info": {
+    "name": "Caftan Rental API",
+    "description": "Collection des endpoints pour l'API de location de caftans marocains",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Test API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/test",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["api", "test"]
+        },
+        "description": "Tester que l'API fonctionne correctement"
+      }
+    },
+    {
+      "name": "Get All Caftans",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/caftans",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["api", "caftans"]
+        },
+        "description": "Récupérer la liste de tous les caftans disponibles"
+      }
+    },
+    {
+      "name": "Get Caftan by ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/caftans/1",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["api", "caftans", "1"]
+        },
+        "description": "Récupérer les détails d'un caftan spécifique par son ID"
+      }
+    },
+    {
+      "name": "Create Rental",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"customer_name\": \"Fatima Zahra\",\n  \"caftan_id\": 1,\n  \"start_date\": \"2024-12-15\",\n  \"end_date\": \"2024-12-18\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/rent",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["api", "rent"]
+        },
+        "description": "Créer une nouvelle location de caftan"
+      }
+    }
+  ]
+}

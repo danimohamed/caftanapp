@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Caftan Rental</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Caftans Catalog</string>
+    <string name="price_per_day">DH/day</string>
+
+    <!-- Details Screen -->
+    <string name="details_title">Caftan Details</string>
+    <string name="rent_now">Rent Now</string>
+    <string name="size_label">Size:</string>
+    <string name="price_label">Price:</string>
+    <string name="price_format">%s DH/day</string>
+
+    <!-- Rent Screen -->
+    <string name="rent_title">Rent Caftan</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="submit_rental">Submit Rental</string>
+    <string name="rental_summary">Rental Summary</string>
+    <string name="duration_format">Duration: %d day(s)</string>
+    <string name="estimated_price_format">Estimated Total: %.2f DH</string>
+    <string name="date_picker_helper">Tap on date fields to select from calendar</string>
+
+    <!-- Menu Items -->
+    <string name="action_sort">Sort</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_my_rentals">My Rentals</string>
+
+    <!-- Sort and Filter -->
+    <string name="sort_by_price">Tri par prix (Sort by Price)</string>
+    <string name="filter_options">Filter Options</string>
+    <string name="filter_by_size">Filter by Size</string>
+    <string name="reset_filters">Reset Filters</string>
+    <string name="sort_none">None</string>
+    <string name="sort_price_low_high">Price: Low to High</string>
+    <string name="sort_price_high_low">Price: High to Low</string>
+    <string name="filter_all">All</string>
+
+    <!-- Messages -->
+    <string name="showing_caftans">Showing %d caftan(s)</string>
+    <string name="sorted_by">Sorted by: %s</string>
+    <string name="filter_applied">Filter: %s</string>
+    <string name="filters_reset">Filters reset</string>
+    <string name="refreshing">Refreshing...</string>
+
+    <!-- Error Messages -->
+    <string name="error_loading">Failed to load data</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_empty_fields">Please fill all fields</string>
+    <string name="error_invalid_caftan">Invalid caftan ID</string>
+    <string name="success_rental">Rental created successfully!</string>
+    <string name="error_rental">Failed to create rental</string>
+
+    <!-- Date Validation Messages -->
+    <string name="error_select_start_date_first">Please select start date first</string>
+    <string name="error_end_date_before_start">End date must be after start date</string>
+    <string name="error_end_date_cleared">End date cleared. Please select a new end date.</string>
+    <string name="error_date_in_past">Start date cannot be in the past</string>
+    <string name="error_same_date">Rental must be at least 1 day. Please select different dates.</string>
+    <string name="error_max_rental_period">Maximum rental period is 30 days</string>
+    <string name="error_invalid_date_format">Invalid date format. Please select dates using the date picker.</string>
+    <string name="error_name_too_short">Name must be at least 3 characters</string>
+    <string name="error_validation">Validation error. Please check your inputs.</string>
+</resources>

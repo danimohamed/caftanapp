@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- App Colors -->
+    <color name="purple_primary">#6200EE</color>
+    <color name="purple_dark">#3700B3</color>
+    <color name="teal_accent">#03DAC5</color>
+
+    <!-- Status Colors -->
+    <color name="available_green">#4CAF50</color>
+    <color name="available_green_light">#E8F5E9</color>
+    <color name="rented_red">#F44336</color>
+    <color name="rented_red_light">#FFEBEE</color>
+
+    <!-- Background -->
+    <color name="background_gray">#F5F5F5</color>
+</resources>
