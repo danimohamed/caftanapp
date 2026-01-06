@@ -1,6 +1,7 @@
 # 👗 Caftan Rental Application
 ![alt text](<WhatsApp Image 2025-12-15 at 23.31.52_b7fb5b2d.jpg>)
 
+
 A complete mobile application for renting traditional Moroccan caftans, built with Android (Java) frontend and Laravel (PHP) backend.
 
 ## 📱 Project Overview
@@ -325,6 +326,12 @@ Expected response:
   "version": "1.0.0"
 }
 ```
+
+## 🎥 Demo Video
+
+To see the application in action, check out the demo video below:
+
+[![Watch the video](https://img.youtube.com/vi/placeholder/0.jpg)](Screen_recording_20260106_112331.webm)
 
 ## 📄 License
 
