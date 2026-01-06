@@ -3,7 +3,11 @@
 
 To see the application in action, check out the demo video below:
 
-[![Watch the video](https://img.youtube.com/vi/placeholder/0.jpg)](Screen_recording_20260106_112331.webm)
+
+
+https://github.com/user-attachments/assets/f6402646-2d21-4a3f-9cfa-b6bc6ab1cc6d
+
+
 
 A complete mobile application for renting traditional Moroccan caftans, built with Android (Java) frontend and Laravel (PHP) backend.
 
